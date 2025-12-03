@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React from 'https://esm.sh/react@18.2.0';
 
 export const FengtaiLogo = (props) => (
   <svg {...props} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">

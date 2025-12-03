@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React from 'https://esm.sh/react@18.2.0';
 import Header from './components/Header.js';
 import MainContent from './components/MainContent.js';
 import DecorativeElements from './components/DecorativeElements.js';
