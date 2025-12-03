@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React from 'https://esm.sh/react@18.2.0';
 
 const MainContent = () => {
   // The video file should be placed in the public folder of your project.
