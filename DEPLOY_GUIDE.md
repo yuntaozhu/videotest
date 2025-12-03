@@ -13,19 +13,19 @@
     ```
     my-vercel-project/
     ├── components/
-    │   ├── DecorativeElements.tsx
-    │   ├── Header.tsx
-    │   └── MainContent.tsx
-    ├── App.tsx
-    ├── constants.tsx
+    │   ├── DecorativeElements.js
+    │   ├── Header.js
+    │   └── MainContent.js
+    ├── App.js
+    ├── constants.js
     ├── index.html
-    ├── index.tsx
+    ├── index.js
     ├── metadata.json
     ├── video.mp4      <-- 你的视频文件
-    └── vercel.json    <-- 新增的 Vercel 配置文件
+    └── vercel.json    <-- Vercel 配置文件
     ```
 
-    **关键点**: 确保 `vercel.json` 文件已添加到项目根目录。
+    **关键点**: 确保 `vercel.json` 文件已添加到项目根目录，并且所有代码文件都是 `.js` 扩展名。
 
 ### 第二步：上传到 GitHub
 
@@ -40,7 +40,7 @@
     git add .
 
     # 提交你的代码
-    git commit -m "Add vercel.json and project files"
+    git commit -m "Convert project to JavaScript and add vercel.json"
 
     # 关联你的 GitHub 仓库 (请将 URL 替换成你自己的)
     git remote add origin https://github.com/your-username/your-repo-name.git
